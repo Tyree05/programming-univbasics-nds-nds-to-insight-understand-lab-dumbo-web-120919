@@ -13,7 +13,7 @@ puts pretty_print_nds(directors_database)
 def print_first_directors_movie_titles
     column_index = 0
     while column_index < directors_database[0][:movies].count do
-      puts "#{directors_database[0][:movies][column_index][:title]} /n"
+      puts "#{directors_database[0][:movies][column_index][:title]}"/n
       column_index += 1
     end
 end
